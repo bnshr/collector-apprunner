@@ -2,12 +2,8 @@ version: 1.0
 runtime: go1
 build:
   commands:
-    pre-build:
-      - scripts/prebuild.sh
     build:
       - go build main.go
-    post-build:
-      - scripts/postbuild.sh
   env:
     - name: MY_VAR_EXAMPLE
       value: "example"
