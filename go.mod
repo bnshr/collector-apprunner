@@ -1,3 +1,3 @@
 module github.com/bnshr/collector-apprunner
 
-go 1.21.0
+go 1.18.10

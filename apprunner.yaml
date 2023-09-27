@@ -8,7 +8,7 @@ build:
     - name: MY_VAR_EXAMPLE
       value: "example"
 run:
-  runtime-version: 1.21.0
+  runtime-version: 1.18.10
   command: ./main
   network:
     port: 3000
